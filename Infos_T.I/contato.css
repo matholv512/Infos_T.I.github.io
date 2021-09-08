@@ -1,0 +1,71 @@
+#FaleConosco {
+    font-size: 50px;
+    text-align: left;
+    color: #3e4b74;
+    margin-left: 15px;
+}
+
+
+.conteudo {
+    width: 100%;
+}
+
+
+#enviar {
+    width: 80px;
+    height: 40px;
+    border: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    font-style: italic;
+    color: #fff;
+    background-color: #3e4b74;
+    text-align: center;
+    margin-top: -20px;
+
+} 
+
+#enviar:hover {
+    background-color: #6675a5;
+    cursor: pointer;
+    
+
+} 
+
+.campo {
+    padding: 0.2em;
+    border: 1px solid #3e4b74;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+} 
+
+
+
+input, textarea, button {
+    font-family: sans-serif;
+    color: #3e4b74;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 21px;
+    margin-bottom: 0.2em;
+    color: #3e4b74;
+    display: block;
+    font-weight: bold;
+    padding-top: 0.22em;
+}
+
+main button {
+    margin-left: 16px;
+}
+
+/* #mainContato {
+    
+} */
+
+
