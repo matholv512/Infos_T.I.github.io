@@ -445,6 +445,13 @@ footer img {
 }
 
 @media screen and (max-width: 800px) {
+  aside {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
   #menu {
     min-height: 88px;
     padding: 0;
@@ -453,7 +460,6 @@ footer img {
     margin-top: 50px;
   }
   #menu ul li {
-    /* Menu vertical */
     display: block;
     margin: 6px 0;
   }
@@ -468,7 +474,7 @@ footer img {
   #menu-contraido ul {
     display: none;
   }
-  /* Mostra o botão do menu */
+
   #menu-contraido input,
   #menu-contraido span {
     display: block;
@@ -479,7 +485,7 @@ footer img {
   }
 
   #content {
-    flex-direction: column; /* Os filhos ficarão em coluna, na vertical */
+    flex-direction: column; 
   }
   main {
     width: 100%;
@@ -492,7 +498,6 @@ footer img {
     text-align: center;
   }
   .destaque img {
-    /* Centralizar a imagem */
     margin-left: auto;
     margin-right: auto;
   }
@@ -500,11 +505,9 @@ footer img {
     flex-direction: column;
   }
   footer > * {
-    /* Todos os filhos DIRETOS de footer */
     margin-bottom: 12px;
   }
   footer ul li:first-child {
-    /* Só o primeiro (first-child) li */
     padding-left: 0;
   }
   footer address {
@@ -640,7 +643,6 @@ article > h3 {
 .foto-texto2 img {
   margin-right: 24px;
   border-radius: 5px;
-  /* Largura máxima limitada à largura do pai */
   max-width: 100%;
   padding-bottom: 30px;
 }
@@ -688,3 +690,4 @@ main h1 {
   text-align: center;
   font-weight: bolder;
 }
+
