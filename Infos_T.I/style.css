@@ -294,8 +294,8 @@ aside > article > img {
   display: block;
 
   margin: 0 auto;
-  border-radius: 4px; /* Borda arredondada */
-  /* Largura máxima é 100% da largura do pai */
+  border-radius: 4px; 
+  
   max-width: 100%;
   padding-top: 50px;
 }
@@ -315,9 +315,9 @@ footer {
   color: #d6d5d5;
   display: flex;
   flex-direction: row;
-  /* Dá espaço automaticamente entre os itens de um flexbox */
+  
   justify-content: space-around;
-  /* background-image: url('img/Fundo_Preto.png'); */
+  
   background-size: 20%;
   background-color: #2d3b68;
 }
@@ -327,12 +327,12 @@ footer a {
 }
 
 footer ul li {
-  display: inline-block; /* Coloca os itens de uma lista na horizontal */
+  display: inline-block; 
   padding: 0 12px;
   border-right: 2px solid #154f61;
 }
 
-/* Tirar a borda direita do último li */
+
 footer ul li:last-child {
   border-right: none;
 }
@@ -380,9 +380,9 @@ footer img {
   }
 }
 
-/* Regras para larguras específicas de tela */
+
 @media screen and (max-width: 1020px) {
-  /* Breakpoint (ponto de quebra) */
+  
   main {
     width: 60%;
   }
@@ -390,7 +390,7 @@ footer img {
     width: 40%;
   }
   .foto-texto {
-    flex-direction: column; /* Os filhos ficarão em coluna, na vertical */
+    flex-direction: column; 
   }
   .destaque img {
     margin-right: 0;
