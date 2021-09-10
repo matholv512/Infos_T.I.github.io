@@ -1,3 +1,10 @@
+#html2{
+    overflow-y:hidden;
+    overflow-x:hidden;
+} 
+
+
+
 #FaleConosco {
     font-size: 50px;
     text-align: left;
@@ -6,9 +13,9 @@
 }
 
 
-.conteudo {
+/* .conteudo {
     width: 100%;
-}
+} */
 
 
 #enviar {
@@ -69,3 +76,11 @@ main button {
 } */
 
 
+@media screen and (max-width: 1918px) {
+    #html2 {
+        overflow-y: visible;
+        overflow-x: visible;
+      }
+} 
+
+ 
